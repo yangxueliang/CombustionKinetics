@@ -1,0 +1,10 @@
+HO2+H=OH+OH rates reanalysized:
+
+Baldwin 773 K rate recalcualted using evaluedt H+O2 = O+OH rate and HO2+HO2=H2O2+O2 from lightfoot
+
+rate vary from 1.34E-11 to 1.70E-11 depending on the rate H+O2 rate.
+
+Michael 2000 theory paper using ATCT matches his expts and newly analyzed 773 rate and room temperature very well. 
+Therefore is used now. 
+
+H+HO2=OH+OH rate using Burke rate since it matches the ratio both at room temperature and 773K and 

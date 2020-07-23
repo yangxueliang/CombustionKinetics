@@ -1,0 +1,3 @@
+measurement =s of the the rate are very limited and have large uncertainties. Ellingson paper 
+have the thermochemistry of the reaction close to most recent Lamberts 2016 paper. The handling
+of the reaction kinetics is sound and agree with known expts relatively well. SO adpat their rate directly

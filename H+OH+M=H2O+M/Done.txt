@@ -1,0 +1,6 @@
+Getzinger uncertainty is not 50% as stated in NIST, but rather 20% if looking at the average results of the data in paper.
+And if examined carefully, one can find the weak temperature dependence of the rate. 
+
+Homer paper can not be downloaed, however uncertainty can be assessed based ob abstract using pde.
+Michael expression already include Homer paper results. No need to include Homer results in the simulation
+
