@@ -1,5 +1,5 @@
 used shock tube experiments with uncertainty and Kurzius results.
-Baldwin 162 used k H+H2CO / k H+o2 320 to inder H+O2 rate. k H+H2CO rate varied from 1.0E-14 to 1.6E-14 at 810K
+Baldwin 1962 used k H+H2CO / k H+O2 320 to infer H+O2 rate. k H+H2CO rate varied from 1.0E-14 to 1.6E-14 at 810K
 agreewith Kurzuis value very well
 
 Note that Wang 2014 experimental measurement used CO to infer rate with out considering HCO decompsotion so it will 
