@@ -16,7 +16,7 @@ minT = max(min(data['min T']),300)
 maxT = min(max(data['max T']),3500)
 
 def rate_function(x, a,b,c,a1,b1,c1):
-    return a * (x/298) ** b * np.exp(-c*1000/8.314/x) + a1 * (x/298) ** b1 * np.exp(-c1*1000/8.314/x)
+    return a * np.exp(-c*1000/8.314/x) + a1 * np.exp(-c1*1000/8.314/x)
 #    return a * (x/298) ** b * np.exp(-c*1000/8.314/x)
 #print(minT, maxT)
 
@@ -67,9 +67,9 @@ simu_average_rate=[x for x in average_rate if ~np.isnan(x)]
 simu_uncertainty=[x for x in uncertainty if np.isfinite(x)]
 #print(simu_average_rate,simu_uncertainty)
 
-p0 = 1.5E-10, -0.1, 66.00, 
+p0 = 6.02E-12, -7.45, 4.46E-10, 35.02
 
-pfit,pcov = curve_fit(rate_function, Tlist, average_rate,
+pfit, pcov = curve_fit(rate_function, Tlist, average_rate,
                     sigma=uncertainty, maxfev=10000)
 perr = np.sqrt(np.diag(pcov))
 print(pfit,perr)
